@@ -1,0 +1,24 @@
+<style>
+#smartweb_warpper {position:relative;width:1px;height:1px;z-index:0;}
+.smartweb_menu_admin {position:fixed;margin:auto;z-index:999999999999;width:100%;background:url('<?=mythemeurl('widgets_site/images/bg_menu.jpg')?>') repeat;}
+.smartweb_menu_admin > div {width:980px; margin:auto;}
+.smartweb_menu_admin ul {margin:0px;padding:0px;}
+.smartweb_menu_admin li {position:relative;padding-left:20px;height:36px;line-height:36px;float:left;margin-right:10px;list-style:none;}
+.smartweb_menu_admin .last {margin-right:0px;}
+.smartweb_menu_admin img {position:absolute;top:0px;bottom:0px;left:0px;margin:auto;}
+.smartweb_menu_admin a {color:white;text-decoration:none;font-size:12px;font-family:Arial;}
+</style>
+<div>
+<div class="smartweb_menu_admin">
+<div>	
+	<ul>
+	<li><a href="<?=mysiteurl('admin')?>" target="_blank">
+	<img src="<?=mythemeurl('widgets_site/images/adminUser.png')?>" />
+	Trang quản trị</a></li>
+	<li><a href="<?=mysiteurl('admin/pages/edit/'.@$WIDGETS['id_page'])?>" target="_blank" style="color:red;"><img src="<?=mythemeurl('widgets_site/images/layout-icon.png')?>" />Sửa bố cục trang này</a></li>
+	<li><a href="<?=mysiteurl('admin/pages/config_nav_website')?>" target="_blank" style="color:red;"><img src="<?=mythemeurl('widgets_site/images/layout-icon.png')?>" />Sắp xếp menu</a></li>
+	</ul>
+	<div style="clear:none;"></div>
+</div>
+</div>
+</div>

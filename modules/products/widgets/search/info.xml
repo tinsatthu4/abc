@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<widget>
+	<name>Widgets product new</name>
+	<description>Hiển thị tất cả sản phẩm mới nhất</description>
+	<author>tinsatthu4@yahoo.com</author>
+	<options>
+		<title>Tiêu đề hiển thị</title>
+		<key>title</key>
+		<value>Sản phẩm mới nhất</value>
+		<description></description>
+    </options>
+	<options>
+		<title>Số lượng tối đa</title>
+		<key>number</key>
+		<value>10</value>
+		<description></description>
+    </options>
+</widget>

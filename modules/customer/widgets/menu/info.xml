@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+	<name>Widgets System Info2</name>
+	<description>Display system info</description>
+	<author>vantaiit@gmail.com</author>
+	<options>
+		<title>Tiêu đề hiển thị</title>
+		<key>title</key>
+		<value>Sản phẩm hot</value>
+		<description></description>
+    </options>
+	<options>
+		<title>Mã code danh mục</title>
+		<key>code</key>
+		<value>0</value>
+		<description></description>
+    </options>
+	<options>
+		<title>Số lượng tối đa</title>
+		<key>number</key>
+		<value>10</value>
+		<description></description>
+    </options>

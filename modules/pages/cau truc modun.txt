@@ -1,0 +1,58 @@
+$options = array(
+			array(
+			"title"=>"So luong hien thi",
+			"key"=>"number",
+			"value"=>"10",
+			)
+			);
+
+[header] => Array
+        (
+            [0] => Array
+                (
+                	[primary_key] => md5(miliseconds)
+                    [id] => 1
+                    [path] => header/header1
+                    [title] => header 1
+                    [options] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [key] => 
+                                    [value] => title
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Tiu00eau u0111u1ec1
+                                    [key] => number
+                                )
+
+                        )
+
+                ),
+           [1] => Array
+                (
+                    [id] => 2
+                    [path] => header/header2
+                    [title] => header 2
+                    [options] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [key] => 
+                                    [value] => title
+                                )
+
+                            [1] => Array
+                                (
+                                    [title] => Tiu00eau u0111u1ec1
+                                    [key] => number
+                                )
+
+                        )
+
+                )
+                
+
+        )
